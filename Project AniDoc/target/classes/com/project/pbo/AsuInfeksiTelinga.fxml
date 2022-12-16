@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #F6F1D1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.pbo.ControllerHewanSakit">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84a59d" height="86.0" layoutX="-6.0" layoutY="-6.0" stroke="#84a39b" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="1206.0" />
+        <ImageView fitHeight="102.0" fitWidth="202.0" layoutX="487.0" layoutY="2.0" nodeOrientation="INHERIT" AnchorPane.leftAnchor="487.0" AnchorPane.rightAnchor="511.0">
+            <image>
+                <Image url="@logoanidoc.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="49.0" fitWidth="47.0" layoutX="14.0" layoutY="14.0">
+            <image>
+                <Image url="@rumah.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="button_pulangdulu" layoutX="5.0" mnemonicParsing="false" onAction="#pulangdoeloe" prefHeight="73.0" prefWidth="64.0" style="-fx-background-color: #ffffff00;" />
+        <Text fill="#f6bd60" layoutX="204.0" layoutY="208.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.2" text="Kemerahan Pada Saluran Telinga" wrappingWidth="638.13671875">
+            <font>
+                <Font name="Montserrat SemiBold" size="30.0" />
+            </font>
+        </Text>
+        <Text fill="#84a59d" layoutX="137.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gejala" wrappingWidth="154.791015625">
+            <font>
+                <Font name="Montserrat SemiBold" size="42.0" />
+            </font>
+        </Text>
+        <Text fill="#84a59d" layoutX="137.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penanganan">
+            <font>
+                <Font name="Montserrat SemiBold" size="42.0" />
+            </font>
+        </Text>
+        <Text fill="#84a59d" layoutX="314.0" layoutY="859.0" stroke="#f5bc62" strokeType="OUTSIDE" text="Hubungi : https://wa.me/6281288154942" wrappingWidth="787.095703125">
+            <font>
+                <Font name="Montserrat SemiBold" size="36.0" />
+            </font>
+        </Text>
+        <Text fill="#f6bd60" layoutX="194.0" layoutY="515.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.2" text="Membersihkan dan mengeringkan telinga" wrappingWidth="440.13671875">
+            <font>
+                <Font name="Montserrat SemiBold" size="30.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="200.0" fitWidth="142.0" layoutX="911.0" layoutY="612.0">
+            <image>
+                <Image url="@Lildiki.png" />
+            </image>
+        </ImageView>
+      <Text fill="#f6bd60" layoutX="204.0" layoutY="257.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.2" text="Rambut Rontok Di Sekitar Telinga" wrappingWidth="638.13671875">
+         <font>
+            <Font name="Montserrat SemiBold" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#f6bd60" layoutX="204.0" layoutY="307.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.2" text="Masalah Keseimbangan" wrappingWidth="638.13671875">
+         <font>
+            <Font name="Montserrat SemiBold" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#f6bd60" layoutX="204.0" layoutY="362.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.2" text="Gangguan Pendengaran" wrappingWidth="638.13671875">
+         <font>
+            <Font name="Montserrat SemiBold" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#f6bd60" layoutX="194.0" layoutY="604.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.2" text="Diobati antibiotik topikal" wrappingWidth="440.13671875">
+         <font>
+            <Font name="Montserrat SemiBold" size="30.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #F6F1D1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.pbo.ControllerDokter">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84a59d" height="77.0" stroke="TRANSPARENT" strokeType="INSIDE" width="800.0" />
+        <ImageView fitHeight="102.0" fitWidth="202.0" layoutX="299.0" layoutY="5.0" nodeOrientation="INHERIT" AnchorPane.leftAnchor="299.0" AnchorPane.rightAnchor="299.0">
+            <image>
+                <Image url="@logoanidoc.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

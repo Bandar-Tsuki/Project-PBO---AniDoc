@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #F6F1D1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.pbo.ControllerSakitAnjing">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84a59d" height="86.0" layoutX="-6.0" layoutY="-6.0" stroke="#84a39b" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="1206.0" />
+        <ImageView fitHeight="102.0" fitWidth="202.0" layoutX="487.0" layoutY="2.0" nodeOrientation="INHERIT" AnchorPane.leftAnchor="487.0" AnchorPane.rightAnchor="511.0">
+            <image>
+                <Image url="@logoanidoc.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="49.0" fitWidth="47.0" layoutX="14.0" layoutY="14.0">
+            <image>
+                <Image url="@rumah.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="button_pulangdulu" layoutX="5.0" mnemonicParsing="false" onAction="#pulangdoeloe" prefHeight="73.0" prefWidth="64.0" style="-fx-background-color: #ffffff00;" />
+        <Button fx:id="button_infeksigigi" layoutX="422.0" layoutY="449.0" mnemonicParsing="false" onAction="#infeksigigi" prefHeight="47.0" prefWidth="333.0" style="-fx-background-color: #84A59D;" text="Infeksi Gigi" textFill="#f6bd60">
+            <font>
+                <Font name="Montserrat ExtraBold" size="27.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_infeksikulit" layoutX="422.0" layoutY="316.0" mnemonicParsing="false" onAction="#infeksikulit" prefHeight="51.0" prefWidth="333.0" style="-fx-background-color: #84A59D;" text="Infeksi Kulit" textFill="#f6bd60">
+            <font>
+                <Font name="Montserrat ExtraBold" size="27.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_infeksitelinga" layoutX="422.0" layoutY="582.0" mnemonicParsing="false" onAction="#infeksitelinga" prefHeight="47.0" prefWidth="333.0" style="-fx-background-color: #84A59D;" text="Infeksi Telinga" textFill="#f6bd60">
+            <font>
+                <Font name="Montserrat ExtraBold" size="27.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
